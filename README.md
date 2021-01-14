@@ -13,5 +13,5 @@ In this project, we use the _modified_ version of the original dataset, which wa
 ### The Goal of the Project
 The goal of this project is to clean the data and analyze the trend of the used car deals.
 
-## Reading the Data and Cleaning the Column Names
-We read the `autos.csv` file into *pandas* and assign it to the variable name `autos`. The file could read by using `encoding=Latin-1` instead of the default encoding `UTF-8`.
+### Summary of Results
+We cleaned the dataset and observed that March and beginning of April 2016 are the busiest time for ad creation. We also found a lack of correlation between mean price and mean mileage by brand. The distribution of `date_crawled` and `last_seen` are fairly consistent throughout the whole data sampling period.
